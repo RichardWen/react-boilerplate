@@ -1,4 +1,3 @@
-TS_FILES := $(shell find . -name "*.ts" -not -path "./node_modules/*")
 TSX_FILES := $(shell find . -name "*.tsx" -not -path "./node_modules/*")
 
 format:
@@ -6,6 +5,9 @@ format:
 
 run:
 	node ./server.js
+
+test:
+	./node_modules/.bin/jest
 
 build:
 	webpack
