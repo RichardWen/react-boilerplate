@@ -7,6 +7,7 @@
     "@types/react-dom": "^16.0.2",
     "ajv": "^6.5.3",
     "lodash": "^4.17.11",
+    "macaddress": "^0.2.9",
     "mixin-deep": "^2.0.0",
     "node-macaddress": "^0.2.4",
     "prettier": "^1.14.3",
