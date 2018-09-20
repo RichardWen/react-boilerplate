@@ -9,5 +9,10 @@ run:
 test:
 	./node_modules/.bin/jest
 
+setup:
+	npm install
+
 build:
-	webpack
+	make format
+	make test
+	npm run-script build
