@@ -6,7 +6,7 @@ This is my personal react-boilerplate for setting up a React project
 3. Standard Webpack/Babel integration
 4. Testing with Jest and Enzyme
 5. TypeScript support
-6. A Penguin Favicon!
+6. An Umbreon Favicon!
 
 ## To Use
 1. Clone the repo
